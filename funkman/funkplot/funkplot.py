@@ -74,14 +74,14 @@ class FunkPlot():
         self.imageNorthUp    = plt.imread(ImagePath+"NorthUp.png")
         self.imageBullet     = plt.imread(ImagePath+"BulletHole.png")
 
-        try:
-            self.imageUnicorn1   = plt.imread(ImagePath+"Unicorn1.png")
-        except:
-            self.imageUnicorn1=None
-        try:
-            self.imageUnicorn2   = plt.imread(ImagePath+"Unicorn2.png")
-        except:
-            self.imageUnicorn2=None
+        # try:  #nasGroup edit to remove unicorn from 4 point grade
+        #     self.imageUnicorn1   = plt.imread(ImagePath+"Unicorn1.png")
+        # except:
+        #     self.imageUnicorn1=None
+        # try:
+        #     self.imageUnicorn2   = plt.imread(ImagePath+"Unicorn2.png")
+        # except:
+        #     self.imageUnicorn2=None
         #self.imageUnicorn3   = plt.imread(ImagePath+"Unicorn3.png")
 
 
