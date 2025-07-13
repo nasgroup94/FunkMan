@@ -514,8 +514,8 @@ class FunkPlot():
 
         if grade=="_OK_" and (self.imageUnicorn2 is not None):
             fig.figimage(self.imageUnicorn2, 550, 450)
-        elif grade=="OK" and (self.imageUnicorn1 is not None):
-            fig.figimage(self.imageUnicorn1, 550, 450)
+        # elif grade=="OK" and (self.imageUnicorn1 is not None):
+        #     fig.figimage(self.imageUnicorn1, 550, 450)
 
         """
         Glide Slope
